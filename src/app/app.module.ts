@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { MaterialModule } from './material/material.module';
+import { LevelPipe } from './level.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeListComponent
+    EmployeeListComponent,
+    LevelPipe
   ],
   imports: [
     BrowserModule,
