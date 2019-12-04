@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
   add(list: Employee[], name: string) {
     list.unshift({
       name,
-      rate: this.generator.generateNumber([20, 50])
+      rate: this.generator.generateNumber([20, 22])
     });
   }
 
